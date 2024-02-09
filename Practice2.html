@@ -4,13 +4,40 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Practice2</title>
+	<!--ここからはCSSについてのコードです-->
 	<style>
+     /*このようにメモ書きできる*/
+		body{
+			text-align: center;
+		}
+
 		#headline{
 			color: orange;
-
 		}
+
 		.main{
 			color: blue;
+			font-size: 50px;
+		}
+		
+		.solid{
+			border: solid 2px gray;
+		}
+
+		.dotted{
+			border: dotted 2px gray;
+		}
+
+		.dashed{
+			border: dashed 2px gray;
+		}
+
+		.double{
+			border: double 2px gray;
+		}
+
+		.px1{
+			border: solid 1px orange;
 		}
 	</style>
 </head>
@@ -23,5 +50,11 @@
 		<h2>これは見出しです</h2>
 		<p>これは<span class="light">例</span>です。</p>
 	</div>
+
+	<p class="solid">solid 2px grayの場合</p>
+	<p class="dotted">dotted 2px grayの場合</p>
+	<p class="dashed">dashed 2px grayの場合</p>
+	<p class="double">double 2px gratの場合</p>
+	<p class="px1">soild 1px orangeの場合</p>
 </body>
 </html>
